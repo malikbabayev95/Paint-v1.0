@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(253, 253, 253);
+    overflow: hidden;
+}
+#panel {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+    background-color: rgb(141, 202, 255);
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 10px;
+    box-shadow: 1px 0px 5px 0px rgb(104, 104, 104);
+    .logo {
+        width: 100%;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .brush {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        p {
+            color: white;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 26px;
+            font-family: "Courier New", Courier, monospace;
+            background-color: rgb(77, 144, 202);
+        }
+        .brushs {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            padding: 10px 0;
+            align-items: center;
+            .round {
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: black;
+            }
+            .square {
+                cursor: pointer;
+                width: 40px;
+                height: 40px;
+                background-color: black;
+            }
+            .butt {
+                cursor: pointer;
+                width: 40px;
+                height: 4px;
+                background-color: black;
+            }
+        }
+        .color {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 20px;
+            color: rgb(60, 59, 59);
+            input {
+                border: none;
+                background-color: transparent;
+                width: 50%;
+                height: 30px;
+                cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        .size {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 20px;
+            color: rgb(60, 59, 59);
+            input {
+                font-size: 20px;
+                border: none;
+                border-bottom: 1px solid black;
+                background-color: transparent;
+                width: 50%;
+                height: 30px;
+                cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+        #submit {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 26px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: 600;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(245, 239, 54);
+            box-shadow: 0px 0px 3px 0px black;
+            cursor: pointer;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
