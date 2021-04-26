@@ -1,5 +1,6 @@
 # Paint-v1.0
 Paint App (version 1.0)
+
 # Lang
 <ul>
 <li>HTML</li>
@@ -21,8 +22,9 @@ Paint App (version 1.0)
 .moveTo(e.clientX, e.clientY)
 ```
 
+# Demo
 
-
+https://malikbabayev95.github.io/Paint-v1.0/
 
 
 
