@@ -10,17 +10,6 @@ Paint App (version 1.0)
 
 ```html
 <canvas> </canvas>
-```
-```javascript
-.getContext('2d')
-.lineWidth
-.strokeStyle
-.lineCap
-.lineTo(e.clientX, e.clientY)
-.stroke()
-.beginPath()
-.moveTo(e.clientX, e.clientY)
-```
 
 # Demo
 
