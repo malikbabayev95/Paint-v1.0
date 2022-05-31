@@ -8,9 +8,6 @@ Paint App (version 1.0)
 <li>JavaScript</li>
 </ul>
 
-```html
-<canvas> </canvas>
-
 # Demo
 
 https://malikbabayev95.github.io/Paint-v1.0/
